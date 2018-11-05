@@ -15,5 +15,6 @@ namespace SingleResponsibilityPrinciple
         {
             Console.WriteLine(string.Concat("INFO: ", message), args);
         }
+        
     }
 }
