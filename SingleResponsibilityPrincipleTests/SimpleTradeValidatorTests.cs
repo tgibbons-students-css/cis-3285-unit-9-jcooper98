@@ -65,7 +65,7 @@ namespace SingleResponsibilityPrinciple.Tests
             //Arrange
             var logger = new ConsoleLogger();
             var tradeValidator = new SimpleTradeValidator(logger);
-            string[] strData = { "GBPUSD", "1000000", "1.5" };
+            string[] strData = { "GBPUSD", "100000", "1.5" };
             //Act
             bool result = tradeValidator.Validate(strData);
             //Assert
